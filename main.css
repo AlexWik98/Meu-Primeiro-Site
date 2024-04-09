@@ -74,6 +74,7 @@ section p {
 }
 section img {
     margin-right: 100px;
+    border-radius: 10px;
 }
 .logo-list img {
     height: 30px;
@@ -87,3 +88,63 @@ section img {
     color:black;
     font-size: 28px;
 }
+#ferramentas h2 {
+    text-align: center;
+    margin: 20px auto;
+}
+.software-logo li{
+    display: inline;
+    position: relative;
+}
+.software-logo img{
+    height: 100px;
+    position: relative;
+    left: 26%;  
+}
+#contato h3{ 
+    font-size: 50px;
+}
+#contato .container {
+    display: block;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 10px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form button {
+    background-color:rgb(12, 12, 88);
+    color: beige;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color:rgb(21, 105, 25);
+}
+input:focus, textarea:focus {
+    outline-color:rgb(12, 12, 88);
+}
+footer {
+    background-color: white;
+    color:black
+    padding: 16px 0;
+}
+footer p { 
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
